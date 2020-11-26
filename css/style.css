@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+    color: #2B2D42;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+  
+a {
+    color: #2B2D42;
+    font-weight: 500;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+  
+a:hover, a:focus {
+    color: #D10024;
+    text-decoration: none;
+    outline: none;
+}
+  
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+img{
+    width: 80%;
+}
+
+.row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.column{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 18%;
+}
+
+.card{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    border: #858484;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button{
+    background-color: #FFF;
+    color: #D10024;
+    border-color: #D10024;
+    padding: 0px 30px 0px 50px;
+}
