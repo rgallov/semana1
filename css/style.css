@@ -84,13 +84,15 @@ body{
 }
 
 .section-2{
-    height: 500px;
-    background-color: gainsboro;
+    /* height: 500px; */
+    background-color: #ffffff;
+    margin-bottom: 5px;
 }
 
 .section-3{
-    height: 500px;
-    background-color: coral;
+    /* height: 500px; */
+    background-color: #ffffff;
+    margin-bottom: 5px;
 }
 
 .footer{
@@ -147,8 +149,8 @@ body{
 }
 .news{
     width: 100%;
-    background-color: cadetblue;
-    height: 240px;
+    background-color: #ffffff;
+    /* height: 240px; */
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -159,25 +161,26 @@ body{
 }
 
 .news-data{
-    width: 49%;
-    height: 100%;
-    background-color: rebeccapurple;
+    width: 50%;
+    /* height: 100%; */
+    background-color: ##ffffff;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
 }
 
 .news-image{
-    margin: 10px 0;
-    padding: 0 40px;
-    color: white;
+    margin: 0 5px;
+    padding: 16px 5px;
+    color: #6495ed;
 }
 
 .news-text{
-    color: white;
+    color: #1E1F29;
     text-align: justify;
-    width: 49%;
-    padding: 1em 0;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .news-text > span.news-url{
@@ -196,8 +199,7 @@ body{
 }
 
 .news-url > a{
-
-    color: #ffffff; 
+    color: #0418fd; 
 }
 
 hr{
