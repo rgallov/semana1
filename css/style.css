@@ -5,7 +5,7 @@ body{
 
 .container{
     width: 1200px;
-    background-color: #888888;
+    background-color: #ffffff;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -15,7 +15,7 @@ body{
 
 .header{
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     background-color: #fff;
     height: auto;    
 }
@@ -77,8 +77,9 @@ body{
 }
 
 .section-1{
-    height: 500px;
-    background-color: rebeccapurple;
+    /* height: 500px; */
+    background-color: #ffffff;
+    margin-bottom: 5px;
 
 }
 
@@ -102,20 +103,22 @@ body{
 
 .section-text{
     margin: 0;
-    color: #3e3e3e;
-    background: white;
+    color: #fff;
+    background: #1E1F29;
     font-weight: bold;
     text-align: center;
+    font-size: 30px;
 }
 
 .col-3{
-    width: 33.08%;
+    width: 32.83%;
     height: 470px;
-    background-color: aquamarine;
+    background-color: transparent;
     display: inline-block;
     padding: -15px;
     margin-top: 5px;
     text-align: center;
+    border: solid;
 }
 .col-5{
     width: 19%;
