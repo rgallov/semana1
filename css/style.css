@@ -123,12 +123,13 @@ body{
     border: solid;
 }
 .col-5{
-    width: 19%;
-    height: 470px;
+    width: 18.78%;
+    /* height: 470px; */
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(255, 177, 148);
+    background-color: #fff;
+    border: solid;
 }
 
 .service-content{
@@ -140,6 +141,12 @@ body{
     bottom: 0;
 }
 
+.service-image{
+    margin: 0 5px;
+    padding: 16px 5px;
+    color: #fd0101;    
+}
+
 .service-text.memebers{
     font-style: italic; 
 }
@@ -147,6 +154,8 @@ body{
 .section-news > div:first-child{
     margin-bottom: 2px; 
 }
+
+
 .news{
     width: 100%;
     background-color: #ffffff;
