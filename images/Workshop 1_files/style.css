@@ -112,9 +112,6 @@ body{
 .footer-container__i{
     color: #fff;
     font-size:20px;
-    display: inline-block;
-    margin-left: 5px;
-    text-align: center;
 }
 
 .footer-ul{
