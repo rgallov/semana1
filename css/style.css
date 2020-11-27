@@ -41,7 +41,7 @@ body{
 }
 
 .container-imagen{
-    background-image: url('./bg.png');
+    background-image: url('../images/bg.png');
     height: 240px;
     /* margin-bottom: 20px; */
 }
