@@ -97,10 +97,34 @@ body{
 
 .footer{
     height: 200px;
-    background-color: yellowgreen;
+    background-color: #fff;
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
+}
+
+.footer-container{
+    background-color: #1E1F29;
+    width: 100%;
+    /* display: inline-flex; */
+}
+
+.footer-container__i{
+    color: #fff;
+    font-size:20px;
+}
+
+.footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.footer-ul__link{
+    text-decoration: none;
+    color: #fff;
+    
 }
 
 .section-text{
