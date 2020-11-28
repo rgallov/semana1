@@ -143,7 +143,7 @@ body{
 
 .col-3{
     width: 32.83%;
-    height: 470px;
+    height: 485px;
     background-color: transparent;
     display: inline-block;
     padding: -15px;
@@ -164,20 +164,30 @@ body{
 }
 
 .service-content{
-    padding: 0.5em 0;
+    padding-top: 5px;
 }
 .service-text{
-    padding: 10px;
+    padding: 5px;
     text-align: justify;
     bottom: 0;
 }
 
 .service-image{
-    margin: 0 5px;
-    padding: 16px 5px;
+    margin-right: 5px;
+    padding: 5px 5px;
     color: #fd0101;    
     width: 200px;
     height: 200px;
+}
+
+.service-url{
+    font-size: 10px;
+    float: right;
+    padding-right: 5px;
+}
+
+.service-url > a{
+    color: #0418fd; 
 }
 
 .team-image__img{
