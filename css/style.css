@@ -226,6 +226,29 @@ body{
     text-align: right;
 }
 
+.team-content{
+    padding: 0.5em 0;
+}
+.team-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.team-image{
+    margin: 0 5px;
+    padding: 16px 5px;
+    color: #fd0101;    
+}
+
+.team-image__img{
+    width: 150px;
+    height: 150px;
+}
+
+.team-text.memebers{
+    font-style: italic; 
+}
 
 .fa-ambulance.news-logo{
     padding: 0.25em 0;
