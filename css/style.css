@@ -176,6 +176,13 @@ body{
     margin: 0 5px;
     padding: 16px 5px;
     color: #fd0101;    
+    width: 200px;
+    height: 200px;
+}
+
+.team-image__img{
+    width: 150px;
+    height: 150px;
 }
 
 .service-text.memebers{
